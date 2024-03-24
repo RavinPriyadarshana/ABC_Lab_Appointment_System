@@ -1,0 +1,60 @@
+
+* {
+    font-family: "Urbanist", sans-serif !important;
+}
+
+.card {
+    height: 325px !important;
+    border: none !important;
+}
+.card1 {
+    background-color: #CFF480;
+}
+.card1 h1 {
+    font-size: 95px;
+    font-weight: bold;
+}
+.card2 {
+    background-image: url("assets/images/index.jpg");
+    background-size: cover;
+}
+.btn {
+    font-weight: bold;
+}
+.bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+}
+
+/*.btn {
+    background-color: #CFF480 !important;
+    border: none !important;
+}*/
+
+a {
+    color: #000000 !important;
+}
+
+@media (min-width: 1025px) {
+.h-custom-2 {
+height: 100%;
+}
+}
+
+.btn-home {
+  background-color: #FFF !important;
+  border: none !important;
+  color: #000 !important;
+  /*font-size: ;*/
+  font-weight: bold;
+}
+.btn-book{
+    background-color: #CFF480 !important;
+    border: none !important;
+    color: #000 !important;
+    /*font-size: ;*/
+    font-weight: bold;
+}
