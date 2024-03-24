@@ -20,9 +20,10 @@ class Home extends Front_Controller
 
     $this->view('index');
   }
-  public function booking($title, $test_id)
+  public function booking()
   {
     $data['obj'] = $this->test->get_data($test_id);
+    $data['records'] = $this->test->get_all();
     $this->view('booking', $data);
   }
   public function save_booking()

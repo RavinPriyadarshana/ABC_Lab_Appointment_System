@@ -78,8 +78,8 @@
                                   <div class="row">
                                     <div class="col-md-6">
                                       <div class="form-group">
-                                        <label for="usr">Full Name</label>
-                                        <input type="text" disabled=""  required="" value="<?=$obj->FullName?>"  class="form-control" id="usr">
+                                        <label for="usr">Name</label>
+                                        <input type="text" disabled=""  required="" value="<?=$obj->Name?>"  class="form-control" id="usr">
                                       </div>
                                     </div>
                                     <div class="col-md-6">

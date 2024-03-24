@@ -20,7 +20,7 @@ class Patient_model extends CI_Model
 		return $data->row();
 	}
 	public function login($email, $password){
-		$this->db->where('Username', $user_name);
+		$this->db->where('Email', $email);
 		$this->db->where('Password', $password);
 		// $this->db->where('IsDeleted', 0);
 		$data = $this->db->get('patient');

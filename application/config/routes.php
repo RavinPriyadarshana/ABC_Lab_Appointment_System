@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit ('No direct script access allowed');
 
 /*
 | -------------------------------------------------------------------------
@@ -83,7 +83,7 @@ $route['profile'] = 'patient/index';
 $route['appointments'] = 'patient/appointments';
 
 $route['medical-tests/(:any)/(:any)'] = 'home/medical_tests/$1/$2';
-$route['booking/(:any)/(:any)'] = 'home/booking/$1/$2';
+$route['booking'] = 'home/booking';
 
 $route['save-booking'] = 'home/save_booking';
 $route['payment/(:any)'] = 'home/payment/$1';
